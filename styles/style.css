@@ -1,0 +1,86 @@
+:root {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #27272e;
+  background-color: rgba(255, 255, 255, 0.9);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+main {
+  margin: 1rem;
+  text-align: center;
+}
+
+.avatar {
+  display: block;
+  max-width: 140px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-size: 1.375rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: #000000;
+  border-radius: 25px;
+  box-shadow: 0px 2px 4.5px rgba(0, 0, 0, 0.1), 0px 4px 25px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.github:hover {
+  background-color: #222222;
+}
+
+.linkedin:hover {
+  background-color: #0a66c2;
+}
+
+.instagram:hover {
+  background-color: #ff0069;
+}
+
+.facebook:hover {
+  background-color: #147af6;
+}
+
+.twitter:hover {
+  background-color: #1d9bf0;
+}
+
+.spotify:hover {
+  background-color: #1db954;
+}
+
+@media (min-width: 400px) {
+  main {
+    max-width: 600px;
+    margin: 1rem auto;
+  }
+}
